@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(1, 17, 15, 0.925);
+    color:rgb(238, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 120px;
+    text-transform: uppercase;
+}
+#light{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 242, 0);
+    border-radius: 40%;
+}
+.lightoff{
+    border: 1px dotted #000;
+}
+.lighton{
+    background-color:rgb(255, 242, 0);
+    border: 2px solid rgb(255, 242, 0);
+    box-shadow: 0 0 100px rgb(255, 242, 0),
+    0 0 100px rgb(255, 242, 0),
+    0 0 100px rgb(255, 242, 0),
+    0 0 100px rgb(255, 242, 0);
+}
+.buttonbox{
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.buttonbox button{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: fantasy;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    padding: 8px 24px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #000;
+}
+.buttonbox button:first-child{
+    background-color: rgb(10, 201, 39);
+}
+.buttonbox button:last-child{
+    background-color: rgb(245, 4, 4);
+}
